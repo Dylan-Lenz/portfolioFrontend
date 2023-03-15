@@ -10,7 +10,7 @@ const NavBar = () => {
                     <button>Blogs</button>
                 </li>
                 <li>
-                    <h1 className="navBar__header">Dylan Lenz</h1>
+                    <h2 className="navBar__header">Dylan Lenz</h2>
                 </li>
                 <li>
                     <p className="navBar__motto">

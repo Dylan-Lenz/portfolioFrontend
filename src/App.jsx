@@ -5,6 +5,9 @@ import React from 'react';
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
+//Page Imports
+import WelcomePage from "./pages/Welcome/Welcome"
+
 const App = () => {
   return ( 
     <body>
@@ -12,6 +15,7 @@ const App = () => {
         <NavBar />
       </header>
         <main className='container'>
+          <WelcomePage />
         </main>
       <footer className='footer'>
         <Footer />
