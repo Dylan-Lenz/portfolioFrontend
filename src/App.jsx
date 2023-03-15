@@ -1,11 +1,15 @@
+//General Imports
 import React from 'react';
 
-function App() {
-  return (
-    <div>
-      Hello World
-    </div>
-  );
-}
+//Component Imports
+import NavBar from "./components/NavBar/NavBar";
 
+const App = () => {
+  return ( 
+    <div>
+      <NavBar />
+    </div>
+   );
+}
+ 
 export default App;
