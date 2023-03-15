@@ -13,11 +13,14 @@ const NavBar = () => {
                     <h1 className="navBar__header">Dylan Lenz</h1>
                 </li>
                 <li>
-                    <h4 className="navBar__motto">“I’ve failed over and over again in my life—and that is why I succeed.” —Michael Jordan</h4>
+                    <p className="navBar__motto">
+                        “I’ve failed over and over again in my life,
+                        and that is why I succeed.” —Michael Jordan
+                    </p>
                 </li>
             </ul>
         </div>
-     );
+    );
 }
  
 export default NavBar;
