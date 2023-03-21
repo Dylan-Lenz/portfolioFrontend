@@ -29,18 +29,28 @@ const WelcomePage = () => {
                             </li>
                             <li>
                                 <img src={phone} alt="phone__icon" />
-                                <p>(602)402-3836</p>
+                                <p>(602) 402-3836</p>
                             </li>
                             <li>
                                 <img src={email} alt="email__icon" />
                                 <p>dylanjlenz@gmail.com</p>
                             </li>
                         </ul>
-                        <hr></hr>
+                    <hr></hr>
                 </div>
-                <div className="about">
+                <div className="about__questions">
                     <img src={person} alt="person__icon" />
                     <h2>About</h2>
+                        <h4>Work best when...</h4>
+                            <p>Presented with a challenging task and treated with respect, trust, and transparency</p>
+                        <h4>Want a company that...</h4>
+                            <p>Cultivates growth, teamwork, and flexibility</p>
+                        <h4>My last boss would describe me as...</h4>
+                            <p>Reliable, creative, hard working, positive, and set the bar high for all that follow</p>
+                    <hr></hr>
+                    <div className="about__description">
+
+                    </div>
                 </div>
             </div>
         </div>
