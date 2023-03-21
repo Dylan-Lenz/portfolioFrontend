@@ -8,6 +8,8 @@ import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
 import person from "../../assets/person.png";
 import folder from "../../assets/folder.png";
+import golee from "../../assets/golee.png";
+import mocktube from "../../assets/mocktube.png";
 
 
 const WelcomePage = () => {
@@ -77,14 +79,16 @@ const WelcomePage = () => {
                         A goal tracking application where you can create custom goals, add influences on those
                         goals, and easily visualize those results over time.
                     </p>
+                    <img src={golee} alt="golee__icon" />
                 </div>
                 <div className="youtubeClone__projects">
                     <h4>YouTube Clone Application</h4>
                     <p>
-                        Used Python, Django, React, JavaScript, HTML and CSS to build a responsive
+                        Used Python, Django, React, JavaScript, HTML/CSS to build a responsive
                         YouTube Clone application to search for YouTube videos via wrapper around Google
                         YouTube API.
                     </p>
+                    <img src={mocktube} alt="mocktube__icon" />
                 </div>
             </div>
         </div>
