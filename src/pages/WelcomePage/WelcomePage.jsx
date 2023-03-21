@@ -6,6 +6,7 @@ import BlackV from "../../assets/BlackV.jpg";
 import location from "../../assets/location.png";
 import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
+import person from "../../assets/person.png";
 
 
 const WelcomePage = () => {
@@ -35,6 +36,11 @@ const WelcomePage = () => {
                                 <p>dylanjlenz@gmail.com</p>
                             </li>
                         </ul>
+                        <hr></hr>
+                </div>
+                <div className="about">
+                    <img src={person} alt="person__icon" />
+                    <h2>About</h2>
                 </div>
             </div>
         </div>
