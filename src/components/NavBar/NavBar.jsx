@@ -5,22 +5,33 @@ import BlackV from "../../assets/BlackV.jpg";
 const NavBar = () => {
 
     return ( 
-        <header className="navBar">
+        <div className="navBar__cont">
             <img src={BlackV} alt="headshot" />
-                <ul>
+            <h2 className="navBar__header">Dylan Lenz</h2>
+                <ul className="navBar__skills">
                     <li>
-                        <h2 className="navBar__header">Dylan Lenz</h2>
+                        <p>FullStack</p>
                     </li>
-                    <li className="navBar__links">
-                        <Link to='/'>
-                            <button>Welcome</button>
-                        </Link>
-                        <Link to='/projects'>
-                            <button>Projects</button>
-                        </Link>
+                    <li>
+                        <p>Python</p>
+                    </li>
+                    <li>
+                        <p>React</p>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                    </li>
+                    <li>
+                        <p>HTML/CSS</p>
                     </li>
                 </ul>
-        </header>
+                <Link to='/'>
+                    <button>Welcome</button>
+                </Link>
+                <Link to='/projects'>
+                    <button>Projects</button>
+                </Link>
+        </div>
     );
 }
  
