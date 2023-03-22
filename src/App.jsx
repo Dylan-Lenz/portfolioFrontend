@@ -1,6 +1,7 @@
 //General Imports
 import React from 'react';
 import { Routes, Route} from 'react-router-dom';
+import "./App.css";
 
 //Component Imports
 import NavBar from "./components/NavBar/NavBar";
@@ -13,12 +14,12 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 const App = () => {
   return ( 
     <div>
-        <NavBar />
-          <Routes>
-            <Route path="/" element={<WelcomePage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-          </Routes>
-        <Footer />
+      <NavBar />
+        <Routes>
+          <Route path="/" element={<WelcomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+      <Footer />
     </div>
    );
 }

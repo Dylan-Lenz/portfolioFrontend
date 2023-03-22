@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    background-color: black;
+}
+
+img {
+    background-color: grey;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: blue;
+}
+
+h4 {
+    color: blue;
+}
+
+p {
+    color: gold;
+}
