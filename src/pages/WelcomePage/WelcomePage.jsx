@@ -16,9 +16,9 @@ const WelcomePage = () => {
             <hr></hr>
             <AboutSection />
             <hr></hr>
-            <PortfolioSection />
-            <hr></hr>
             <SkillsSection />
+            <hr></hr>
+            <PortfolioSection />
             <hr></hr>
         </div>
      );

@@ -1,0 +1,32 @@
+.container__information {
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.headshot {
+    border-radius: 90%;
+    width: 250px;
+    border: inset;
+    border-width: 2px;
+    border-color: #ffa646;
+    padding: 0;
+    margin: 2.5em;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.25em;
+    color: #ffa646;
+}
+
+.icon__information {
+    background: #ffa646;
+    border-radius: 20%;
+    margin: .5em;
+} 
