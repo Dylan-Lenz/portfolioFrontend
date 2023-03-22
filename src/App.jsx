@@ -9,15 +9,13 @@ import Footer from "./components/Footer/Footer";
 
 //Page Imports
 import WelcomePage from "./pages/WelcomePage/WelcomePage";
-import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 
 const App = () => {
   return ( 
-    <div>
+    <div className="container">
       <NavBar />
         <Routes>
           <Route path="/" element={<WelcomePage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
       <Footer />
     </div>

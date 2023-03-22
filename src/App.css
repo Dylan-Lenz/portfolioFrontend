@@ -7,29 +7,30 @@
 }
 
 html {
-    background-color: black;
+    background: black;
 }
 
-img {
-    background-color: grey;
+a {
+    text-decoration: none;
 }
 
 h1 {
-    color: blue;
+    color: #ffa646;
+    text-decoration: none;
 }
 
 h2 {
-    color: blue;
+    color: #ffa646;
 }
 
 h3 {
-    color: blue;
+    color: #ffa646;
 }
 
 h4 {
-    color: blue;
+    color: #ffa646;
 }
 
 p {
-    color: gold;
+    color: white;
 }

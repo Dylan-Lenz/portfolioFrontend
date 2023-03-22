@@ -1,28 +1,13 @@
 // General Imports
 import React from 'react';
-import { Link } from "react-router-dom";
+import "../NavBar/NavBar.css"
 
 const NavBar = () => {
-
     return ( 
-        <div className="navBar__cont">
-            <div className="navBar__buttons">
-                <ul >
-                    <li>
-                        <Link to='/'>
-                            <button>Welcome</button>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/projects'>
-                            <button>Projects</button>
-                        </Link>
-                    </li>
-                </ul>
-            </div>
+        <div className="container__navBar">
+            <a href="/"><h1 className='header__navBar'>DYLAN LENZ</h1></a>
         </div>
     );
 }
  
 export default NavBar;
-
