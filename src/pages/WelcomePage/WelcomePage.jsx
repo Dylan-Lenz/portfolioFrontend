@@ -10,6 +10,7 @@ import person from "../../assets/person.png";
 import folder from "../../assets/folder.png";
 import golee from "../../assets/golee.png";
 import mocktube from "../../assets/mocktube.png";
+import checkbox from "../../assets/checkbox.png";
 
 
 const WelcomePage = () => {
@@ -81,14 +82,77 @@ const WelcomePage = () => {
                     </p>
                     <img src={golee} alt="golee__icon" />
                 </div>
-                <div className="youtubeClone__projects">
+                <div className="mocktube__projects">
                     <h4>YouTube Clone Application</h4>
-                    <p>
-                        Used Python, Django, React, JavaScript, HTML/CSS to build a responsive
-                        YouTube Clone application to search for YouTube videos via wrapper around Google
-                        YouTube API.
-                    </p>
+                        <p>
+                            Used Python, Django, React, JavaScript, HTML/CSS to build a responsive
+                            YouTube Clone application to search for YouTube videos via wrapper around Google
+                            YouTube API.
+                        </p>
                     <img src={mocktube} alt="mocktube__icon" />
+                </div>
+            </div>
+            <hr></hr>
+            <div className="skills__container">
+                <div className="title__skills">
+                    <img src={checkbox} alt="checkbox__icon" />
+                    <h2>Skills</h2>
+                </div>
+                <div className="hard__skills">
+                    <h3>Hard Skills</h3>
+                    <div className="languages__skills">
+                        <h4>Languages</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>React</li>
+                            <li>JavaScript</li>
+                            <li>HTML/CSS</li>
+                            <li>C#</li>
+                            <li>JSON</li>
+                            <li>SQL</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                    <div className="technologies__skills">
+                        <h4>Technologies</h4>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>GitHub</li>
+                            <li>PostMan</li>
+                            <li>Visual Studio Code</li>
+                            <li>Visual Studio</li>
+                            <li>Adobe XD</li>
+                            <li>AWS</li>
+                            <li>Web Services & REST API's</li>
+                            <li>JWT</li>
+                            <li>AGILE</li>
+                        </ul>
+                    </div>
+                    <div className="frameworks__skills">
+                        <h4>Frameworks</h4>
+                        <ul>
+                            <li>Django REST Framework</li>
+                            <li>.Net</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="soft__skills">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Leadership</li>
+                        <li>Project Management</li>
+                        <li>Drive</li>
+                        <li>Product Features & Benefits</li>
+                        <li>Creativity</li>
+                        <li>Problem Solving</li>
+                        <li>Planning</li>
+                        <li>Active Learning</li>
+                        <li>Adaptability</li>
+                        <li>Analysis</li>
+                    </ul>
                 </div>
             </div>
         </div>
