@@ -1,5 +1,6 @@
 // General Imports
 import React from 'react';
+import "./WelcomePage.css"
 
 // Component Imports
 import InformationSection from '../../components/Information/Information';

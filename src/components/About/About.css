@@ -1,0 +1,33 @@
+.about__wrapper {
+    display: grid;
+    grid-template-columns: 45em 25em;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+}
+
+.about__description {
+    font-size: 1.5em;
+    border: inset;
+    border-color: #ffa646;
+    border-width: .25em;
+    padding: 1em;
+}
+
+.about__title {
+    font-size: 4em;
+}
+
+.about__qa {
+    font-size: 1.25em;
+    margin: 2em;
+}
+
+.about__header {
+    margin: .25em;
+    font-size: 1.5em;
+}
+
+.about__text {
+    margin-left: 2em;
+}

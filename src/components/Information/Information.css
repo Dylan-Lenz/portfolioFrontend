@@ -13,11 +13,11 @@
     border-width: 2px;
     border-color: #ffa646;
     padding: 0;
-    margin: 2.5em;
+    margin: .5em;
+    margin-top: 1.75em;
 }
 
 .icon__information {
     background: #ffa646;
     border-radius: 20%;
-    margin: .5em;
 } 
