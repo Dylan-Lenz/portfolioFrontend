@@ -12,9 +12,6 @@
     border-color: #ffa646;
     border-width: .1em;
     padding: 1em;
-}
-
-.about__description:hover {
     box-shadow: 10px 10px 10px 10px goldenrod;
 }
 
@@ -26,9 +23,6 @@
     font-size: 1.25em;
     margin: 2em;
     border-radius: 25%;
-}
-
-.about__qa:hover {
     box-shadow: 10px 10px 10px 10px goldenrod;
 }
 

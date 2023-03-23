@@ -3,7 +3,7 @@ import React from 'react';
 import "./WelcomePage.css"
 
 // Component Imports
-import InformationSection from '../../components/Information/Information';
+import Banner from '../../components/Banner/Banner';
 import AboutSection from '../../components/About/About';
 import PortfolioSection from '../../components/Portfolio/Portfolio';
 import SkillsSection from '../../components/Skills/Skills';
@@ -14,7 +14,7 @@ const WelcomePage = () => {
     return ( 
         <div className="container">
             <hr></hr>
-            <InformationSection />
+            <Banner />
             <hr></hr>
             <AboutSection />
             <hr></hr>

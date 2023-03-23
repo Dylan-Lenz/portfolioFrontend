@@ -1,6 +1,6 @@
 // General Imports
 import React from 'react';
-import "./Information.css";
+import "./Banner.css";
 
 // Asset Imports
 import BlackV from "../../assets/BlackV.jpg";
