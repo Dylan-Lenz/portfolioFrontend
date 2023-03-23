@@ -15,9 +15,14 @@
     padding: 0;
     margin: .5em;
     margin-top: 1.75em;
+    box-shadow: 10px 10px 10px 10px black;
 }
 
 .icon__information {
     background: #ffa646;
     border-radius: 20%;
-} 
+}
+
+.flourish {
+    width: 50em;
+}

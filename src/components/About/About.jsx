@@ -10,7 +10,7 @@ const AboutSection = () => {
                 <h2 className="about__title">About</h2>
                 <p>
                     Actively searching for an entry-level position as a Junior Software Developer.
-                    Having found success in both independent atmospheres and team-focused professional environments. 
+                    Having found success in both independent and team-focused professional environments. 
                     This industry suits my many interests, compliments my creative talents, and ignites my personal passions. 
                     The facet that excites me most is the changing challenges and the endless opportunities for finding creative ways to solve common problems.
                 </p>

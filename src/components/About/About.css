@@ -10,8 +10,12 @@
     font-size: 1.5em;
     border: inset;
     border-color: #ffa646;
-    border-width: .25em;
+    border-width: .1em;
     padding: 1em;
+}
+
+.about__description:hover {
+    box-shadow: 10px 10px 10px 10px goldenrod;
 }
 
 .about__title {
@@ -21,6 +25,11 @@
 .about__qa {
     font-size: 1.25em;
     margin: 2em;
+    border-radius: 25%;
+}
+
+.about__qa:hover {
+    box-shadow: 10px 10px 10px 10px goldenrod;
 }
 
 .about__header {
