@@ -1,0 +1,60 @@
+/* @keyframes example {
+    0%   {left:0px;}
+    25%  {left:125px;}
+    50%  {left:0px;}
+    75%  {left:-125px;}
+    100% {left:0px;}
+} */
+
+@keyframes moveAcross {
+    0% {
+      left: -300px;
+    }
+    100% {
+      left: 100%;
+    }
+}
+
+.wrapper__skills {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25em 25em 25em;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 4em;
+    padding-bottom: 12.5em;
+}
+
+.soft__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    animation: moveAcross 60s linear -10s infinite reverse;
+}
+
+.languages__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    animation: moveAcross 60s linear -20s infinite reverse;
+}
+
+.technologies__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    animation: moveAcross 60s linear 0s infinite reverse;
+}
+
+.title__skills {
+    font-size: 2em;
+}

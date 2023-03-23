@@ -1,6 +1,6 @@
 // General Imports
 import React from 'react';
-import "./WelcomePage.css"
+import "./HomePage.css"
 
 // Component Imports
 import Banner from '../../components/Banner/Banner';
@@ -10,14 +10,13 @@ import SkillsSection from '../../components/Skills/Skills';
 import ContactSection from '../../components/Contact/Contact';
 
 
-const WelcomePage = () => {
+const HomePage = () => {
     return ( 
         <div className="container">
             <hr></hr>
             <Banner />
             <hr></hr>
             <AboutSection />
-            <hr></hr>
             <SkillsSection />
             <hr></hr>
             <PortfolioSection />
@@ -28,4 +27,4 @@ const WelcomePage = () => {
      );
 }
  
-export default WelcomePage;
+export default HomePage;

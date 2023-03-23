@@ -8,14 +8,14 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
 //Page Imports
-import WelcomePage from "./pages/WelcomePage/WelcomePage";
+import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => {
   return ( 
     <div className="container">
       <NavBar />
         <Routes>
-          <Route path="/" element={<WelcomePage />} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
       <Footer />
     </div>
