@@ -10,7 +10,7 @@
     border-bottom: inset;
     border-color: #ffa646;
     border-width: 1px;
-    z-index: 2;
+    z-index: 4;
 }
 
 .header__navBar {

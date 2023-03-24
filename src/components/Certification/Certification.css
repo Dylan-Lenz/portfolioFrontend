@@ -1,0 +1,50 @@
+.wrapper__certificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.55em;
+}
+
+.title__certificate {
+    font-size: 7.5em;
+    background: black;
+    border-radius: 65%;
+    border: inset;
+    border-color: goldenrod;
+    border-width: 2px;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+.logo__certificate {
+    width: 10em;
+    background: goldenrod;
+    border-radius: 5%;
+    padding: .5em;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.certificate {
+    width: 15em;
+    z-index: 3;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.certificate:hover {
+    transform: scale(2);
+}
+
+.text__certificate {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: black;
+    border-radius: 5%;
+    opacity: 85%;
+    border: inset;
+    border-color: goldenrod;
+    border-width: 2.5px;
+    box-shadow: 5px 5px 5px 5px black;
+    font-size: 1.5em;
+    width: 25em;
+}

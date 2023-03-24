@@ -7,7 +7,7 @@ import Banner from '../../components/Banner/Banner';
 import AboutSection from '../../components/About/About';
 import PortfolioSection from '../../components/Portfolio/Portfolio';
 import SkillsSection from '../../components/Skills/Skills';
-import EducationSection from '../../components/Education/Education';
+import CertificationSection from '../../components/Certification/Certification';
 
 
 const HomePage = () => {
@@ -19,7 +19,7 @@ const HomePage = () => {
             <AboutSection />
             <SkillsSection />
             <hr></hr>
-            <EducationSection />
+            <CertificationSection />
             <hr></hr>
             <PortfolioSection />
         </div>
