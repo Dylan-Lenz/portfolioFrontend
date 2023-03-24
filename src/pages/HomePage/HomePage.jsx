@@ -17,9 +17,10 @@ const HomePage = () => {
             <Banner />
             <hr></hr>
             <AboutSection />
-            <SkillsSection />
             <hr></hr>
             <CertificationSection />
+            <hr></hr>
+            <SkillsSection />
             <hr></hr>
             <PortfolioSection />
         </div>

@@ -6,6 +6,7 @@
     justify-items: center;
     background: black;
     opacity: 85%;
+    padding-bottom: 8.5em;
 }
 
 .about__description {
@@ -25,6 +26,9 @@
 .about__qa {
     font-size: 1.25em;
     margin: 2em;
+    position: relative;
+    left: 4.5em;
+    top: 5em;
     border-radius: 25%;
     box-shadow: 5px 5px 5px 5px goldenrod;
 }

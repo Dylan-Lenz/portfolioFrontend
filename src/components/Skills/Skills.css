@@ -1,6 +1,6 @@
 @keyframes moveAcross {
     0% {
-      left: -300px;
+      left: -600px;
     }
     100% {
       left: 100%;
@@ -13,8 +13,8 @@
     grid-template-columns: 25em 25em 25em;
     justify-content: space-around;
     align-items: start;
-    padding-top: 2em;
-    padding-bottom: 15em;
+    padding-top: 1em;
+    padding-bottom: 8.5em;
     opacity: 85%;
 }
 
@@ -26,6 +26,7 @@
     width: 300px;
     position: absolute;
     animation: moveAcross 60s linear -20s infinite reverse;
+    width: 45em;
 }
 
 .languages__skills {
@@ -36,6 +37,7 @@
     width: 300px;
     position: absolute;
     animation: moveAcross 60s linear -40s infinite reverse;
+    width: 45em;
 }
 
 .technologies__skills {
@@ -46,6 +48,7 @@
     width: 300px;
     position: absolute;
     animation: moveAcross 60s linear 0s infinite reverse;
+    width: 45em;
 }
 
 .title__skills {

@@ -5,6 +5,7 @@
     align-content: center;
     align-items: center; 
     padding: 2em;
+    margin-top: 50px;
 }
 
 .wrapper__portfolio {
@@ -13,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 
@@ -25,7 +26,7 @@
     border-color: #ffa646;
     border-width: .01em;
     box-shadow: 10px 10px 10px 10px black;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .title_text__portfolio {
@@ -36,7 +37,7 @@
     border-color: #ffa646;
     border-width: .01em;
     box-shadow: 5px 5px 5px 5px black;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     transform: scale(1.25);
 }
 
@@ -60,7 +61,7 @@
 }
 
 .card__portfolio:hover {
-    transform: scale(1.25);
+    transform: scale(90%);
 }
 
 .header__portfolio {
