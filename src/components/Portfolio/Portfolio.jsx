@@ -1,7 +1,6 @@
 // General Imports
 import React from 'react';
 import "./Portfolio.css";
-import { Link } from "react-router-dom";
 
 // Asset Imports
 import golee from "../../assets/golee.png";
@@ -18,8 +17,12 @@ const PortfolioSection = () => {
     return ( 
         <div>
             <div className="title_section__portfolio">
-                <h2 className="title__portfolio">Projects</h2>
-                    <p className="title_text__portfolio">All Projects Are Located The GitHub Repository</p>
+                <h2 className="title__portfolio">The Work</h2>
+                <a href="https://github.com/Dylan-Lenz">
+                    <div className="title_text__portfolio">
+                        <p>Check The Code @GitHub</p>
+                    </div>
+                </a>
             </div>
             <div className="wrapper__portfolio">
                 <a href="https://github.com/Dylan-Lenz/golee">

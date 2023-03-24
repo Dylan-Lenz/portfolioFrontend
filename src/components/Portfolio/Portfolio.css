@@ -37,6 +37,7 @@
     border-width: .01em;
     box-shadow: 5px 5px 5px 5px black;
     margin-bottom: 50px;
+    transform: scale(1.25);
 }
 
 .image__portfolio {
@@ -54,10 +55,12 @@
     border-color: #ffa646;
     border-width: .35em;
     background: black;
+    opacity: 85%;
+    box-shadow: 10px 10px 10px 10px black;
 }
 
 .card__portfolio:hover {
-    box-shadow: 5px 5px 5px 5px goldenrod;
+    transform: scale(1.25);
 }
 
 .header__portfolio {
