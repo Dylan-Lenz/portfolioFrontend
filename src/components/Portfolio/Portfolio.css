@@ -13,6 +13,7 @@
     justify-content: space-around;
     align-items: center;
     justify-items: center;
+    margin-bottom: 50px;
 }
 
 
@@ -24,6 +25,7 @@
     border-color: #ffa646;
     border-width: .01em;
     box-shadow: 10px 10px 10px 10px black;
+    margin-bottom: 25px;
 }
 
 .title_text__portfolio {
@@ -34,6 +36,7 @@
     border-color: #ffa646;
     border-width: .01em;
     box-shadow: 5px 5px 5px 5px black;
+    margin-bottom: 50px;
 }
 
 .image__portfolio {

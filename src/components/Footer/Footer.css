@@ -1,0 +1,46 @@
+.wrapper__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+}
+
+.icon__footer {
+    width: 125px;
+}
+
+.logo__footer {
+    width: 50px;
+    background: #ffa646;
+    border-radius: 25%;
+    margin: 10px;
+}
+
+.text__contact {
+    font-size: 25px;
+}
+
+.email__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.location__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.phone__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;   
+}

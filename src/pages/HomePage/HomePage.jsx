@@ -7,7 +7,6 @@ import Banner from '../../components/Banner/Banner';
 import AboutSection from '../../components/About/About';
 import PortfolioSection from '../../components/Portfolio/Portfolio';
 import SkillsSection from '../../components/Skills/Skills';
-import ContactSection from '../../components/Contact/Contact';
 
 
 const HomePage = () => {
@@ -20,8 +19,6 @@ const HomePage = () => {
             <SkillsSection />
             <hr></hr>
             <PortfolioSection />
-            <hr></hr>
-            <ContactSection />
             <hr></hr>
         </div>
      );
