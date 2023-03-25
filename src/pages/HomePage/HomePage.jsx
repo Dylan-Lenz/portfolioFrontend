@@ -16,13 +16,17 @@ const HomePage = () => {
             <hr></hr>
             <Banner />
             <hr></hr>
+            <a name='about'></a>
             <AboutSection />
             <hr></hr>
+            <a name='certification'></a>
             <CertificationSection />
             <hr></hr>
             <SkillsSection />
+            <a name='work'></a>
             <hr></hr>
             <PortfolioSection />
+            <a name='contact'></a>
         </div>
      );
 }
