@@ -29,10 +29,10 @@ const PortfolioSection = () => {
                     <div className="card__portfolio">
                         <img className="image__portfolio" src={golee} alt="golee__snip" />
                         <h4 className="header__portfolio">Goal Tracking Application</h4>
-                        <p className="text__portfolio">
-                            A Goal Tracking Application Creating Custom Goals, Adding Influences On Those
-                            Goals, & Easily Visualize Results Over Time.
-                        </p>
+                            <p className="text__portfolio">
+                                A Goal Tracking Application Creating Custom Goals, Adding Influences On Those
+                                Goals, & Easily Visualize Results Over Time.
+                            </p>
                     </div>
                 </a>
                 <a href="https://github.com/Dylan-Lenz/youtubeClone_frontend">

@@ -1,7 +1,7 @@
 .container__information {
     margin-top: 3.5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -16,11 +16,23 @@
     margin: .5em;
     margin-top: 1.75em;
     box-shadow: 7.5px 7.5px 7.5px 7.5px black;
+    z-index: 2;
+}
+
+.headshot:hover {
+    transform: scale(1.25);
+    transition: .5s ease-in-out;
 }
 
 .flourish {
-    width: 50em;
+    width: 40em;
     print-color-adjust: goldenrod;
     box-shadow: 10px 10px 10px 10px black;
-    border-radius: 10%;
+    border-radius: 15%;
+    width: 45em;
+}
+
+.flourish:hover {
+    transform: scale(95%);
+    transition: .5s ease-in-out;
 }

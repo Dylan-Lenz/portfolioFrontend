@@ -7,7 +7,7 @@ import dcc from "../../assets/dcc.png";
 import certificate from "../../assets/certificate.png";
 
 const CertificationSection = () => {
-    return ( 
+    return (  
         <div className='wrapper__certificate'>
                 <h1 className="title__certificate">Certification</h1>
                 <a href="https://devcodecamp.com/">

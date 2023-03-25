@@ -27,6 +27,7 @@
 
 .logo__certificate:hover {
     box-shadow: 5px 5px 5px 5px goldenrod;
+    transition: .75s ease-in;
 }
 
 .certificate {
@@ -37,6 +38,7 @@
 
 .certificate:hover {
     transform: scale(2);
+    transition: all 1s ease-in-out;
 }
 
 .text__certificate {  

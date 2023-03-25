@@ -9,7 +9,7 @@ const AboutSection = () => {
             <div className="about__description">
                 <h2 className="about__title">About</h2>
                 <p>
-                    Full Stack Software Developer with a keen eye for design, having found success in both independent and team-focused professional projects. 
+                    Full Stack Software Developer with a keen eye for Front-End Design, having found success at both independent and team-focused professional projects. 
                     Web Design & Development suit my many interests, compliment my creative talents, and ignite my personal passions. 
                     The facet that excites; is the changing challenges and the endless opportunities for finding creative ways to solve common problems.
                     The facet that satisfies; is breathing the soul of style into an idea and watching it come alive right before my eyes. 

@@ -20,7 +20,7 @@
 .header__navBar:hover {
     text-decoration: none;
     color: goldenrod;
-    transition: all .2 ease-in-out;
+    transition: all 1s ease-in-out;
     transform: scale(1.15);
     text-shadow: 1px 1px 5px #ffa646, 1px 1px 5px goldenrod;
 }

@@ -41,6 +41,12 @@
     transform: scale(1.25);
 }
 
+.title_text__portfolio:hover {
+    box-shadow: 5px 5px 5px 5px goldenrod;
+    transition: .75s ease-in;
+}
+
+
 .image__portfolio {
     width: 500px;
 }
@@ -62,6 +68,7 @@
 
 .card__portfolio:hover {
     transform: scale(90%);
+    transition: all .25s ease-in-out;
 }
 
 .header__portfolio {
