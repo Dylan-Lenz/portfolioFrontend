@@ -1,4 +1,4 @@
-.title_section__portfolio {
+.title_section__work {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -8,7 +8,7 @@
     margin-top: 50px;
 }
 
-.wrapper__portfolio {
+.wrapper__work {
     display: grid;
     grid-template-columns: 25em 25em 25em;
     justify-content: space-around;
@@ -18,7 +18,7 @@
 }
 
 
-.title__portfolio {
+.title__work {
     font-size: 7.5em;
     background: black;
     border-radius: 75%;
@@ -29,7 +29,7 @@
     margin-bottom: 30px;
 }
 
-.title_text__portfolio {
+.title_text__work {
     font-size: 2em;
     background: black;
     border-radius: 10%;
@@ -41,17 +41,17 @@
     transform: scale(1.25);
 }
 
-.title_text__portfolio:hover {
+.title_text__work:hover {
     box-shadow: 5px 5px 5px 5px goldenrod;
     transition: .75s ease-in;
 }
 
 
-.image__portfolio {
+.image__work {
     width: 500px;
 }
 
-.card__portfolio {
+.card__work {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -66,16 +66,17 @@
     box-shadow: 10px 10px 10px 10px black;
 }
 
-.card__portfolio:hover {
+.card__work:hover {
     transform: scale(90%);
     transition: all .25s ease-in-out;
+    box-shadow: 5px 5px 5px 5px goldenrod;
 }
 
-.header__portfolio {
+.header__work {
     font-size: 2em;
     padding-top: 1em;
 }
 
-.text__portfolio {
+.text__work {
     font-size: 1.25em;
 }

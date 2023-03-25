@@ -5,7 +5,7 @@ import "./HomePage.css"
 // Component Imports
 import Banner from '../../components/Banner/Banner';
 import AboutSection from '../../components/About/About';
-import PortfolioSection from '../../components/Portfolio/Portfolio';
+import WorkSection from '../../components/Work/Work';
 import SkillsSection from '../../components/Skills/Skills';
 import CertificationSection from '../../components/Certification/Certification';
 
@@ -18,14 +18,14 @@ const HomePage = () => {
             <hr></hr>
             <a name='about'></a>
             <AboutSection />
-            <hr></hr>
             <a name='certification'></a>
+            <hr></hr>
             <CertificationSection />
             <hr></hr>
             <SkillsSection />
             <a name='work'></a>
             <hr></hr>
-            <PortfolioSection />
+            <WorkSection />
             <a name='contact'></a>
         </div>
      );

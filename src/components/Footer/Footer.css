@@ -10,14 +10,40 @@
     width: 125px;
 }
 
+.icon__footer:hover {
+    transform: scale(75%);
+    transition: .75s ease-in;
+}
+
 .logo__footer {
+    width: 30px;
+    background: #ffa646;
+    border-radius: 25%;
+    margin: 10px;
+}
+
+.logo__footer:hover {
+    transform: scale(1.75);
+    transition: .75s ease-in;
+}
+
+.logo__location {
     width: 50px;
     background: #ffa646;
     border-radius: 25%;
     margin: 10px;
 }
 
+.logo__location:hover {
+    transform: scale(1.5);
+    transition: .75s ease-in; 
+}
+
 .text__contact {
+    font-size: 17.5px;
+}
+
+.text__location {
     font-size: 25px;
 }
 

@@ -24,10 +24,10 @@ const Footer = () => {
             <div className="location__footer">
                 <div>
                     <a href="https://www.google.com/maps/place/Madison,+WI/@43.0846517,-89.6867705,10z/data=!3m1!4b1!4m6!3m5!1s0x8806536d3a2019ff:0x4e0cfcb5ba484198!8m2!3d43.0721661!4d-89.4007501!16zL20vMGZ3Mnk">
-                        <img className='logo__footer' src={location} alt="location__icon" />
+                        <img className='logo__location' src={location} alt="location__icon" />
                     </a>
                 </div>
-                <div className="text__contact">
+                <div className="text__location">
                     <p>
                         Madison, Wi, US
                     </p>
