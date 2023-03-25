@@ -5,7 +5,8 @@
     right: 0%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background: black;
     border-bottom: inset;
     border-color: #ffa646;
@@ -23,4 +24,10 @@
     transition: all 1s ease-in-out;
     transform: scale(1.15);
     text-shadow: 1px 1px 5px #ffa646, 1px 1px 5px goldenrod;
+}
+
+.links__navBar:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(2);
+    text-shadow: 1px 1px 5px #ffa646, 1px 1px 5px goldenrod; 
 }
