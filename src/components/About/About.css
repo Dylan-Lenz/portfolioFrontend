@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Allison';
+    src: url('../../assets/Fonts/Allison.ttf');
+}
+
 .about__wrapper {
     display: grid;
     grid-template-columns: 45em 25em;
@@ -6,7 +11,7 @@
     justify-items: center;
     background: black;
     opacity: 85%;
-    padding-bottom: 8.5em;
+    padding-bottom: 5em;
 }
 
 .about__description {
@@ -25,19 +30,43 @@
 
 .about__qa {
     font-size: 1.25em;
-    margin: 2em;
+    margin: 1em;
     position: relative;
     left: 4.5em;
-    top: 5em;
+    top: 8em;
     border-radius: 25%;
     box-shadow: 5px 5px 5px 5px goldenrod;
 }
 
 .about__header {
-    margin: .25em;
     font-size: 1.5em;
 }
 
 .about__text {
     margin-left: 2em;
+}
+
+.about__focus {
+    margin: 0em;
+    padding: 0em;
+}
+
+.title__focus {
+    font-family: 'Allison';
+    font-size: 4em;
+}
+
+.description__focus {
+    font-size: 2em;
+    font-family: 'Allison';
+}
+
+.set1__focus {
+    position: relative;
+    right: 5em;   
+}
+
+.set2__focus {
+    position: relative;
+    left: 12.5em;  
 }

@@ -9,7 +9,7 @@ const AboutSection = () => {
             <div className="about__description">
                 <h2 className="about__title">About</h2>
                 <p>
-                    Full Stack Software Developer with a keen eye for Front-End Design, having found success at both independent and team-focused professional projects. 
+                    Full Stack Software Developer with a keen eye for Front-End Design, having found success with both independent and team-focused professional projects. 
                     Web Design & Development suit my many interests, compliment my creative talents, and ignite my personal passions.
                 </p>
             </div>
@@ -22,10 +22,14 @@ const AboutSection = () => {
                     <p className="about__text">Reliable, creative, hard working, positive, and set the bar high for all that follow</p>
             </div>
             <div className="about__focus">
-                <span className="title__focus"><h4>Excites?</h4></span>
-                <span className="description__focus"><p>The changing challenges and the endless opportunities for finding new, creative ways to solve common problems</p></span>
-                <span className="title__focus"><h4>Satisfies?</h4></span>
-                <span className="description__focus"><p>Breathing the soul of style into an idea and watching it come alive</p></span>
+                <div className="set1__focus">
+                    <span className="title__focus"><h4>Excites...</h4></span>
+                    <span className="description__focus"><p>Conquering challenges by learning new creative ways to solve common problems.</p></span>
+                </div>
+                <div className="set2__focus">
+                    <span className="title__focus"><h4>Satisfies...</h4></span>
+                    <span className="description__focus"><p>Breathing the soul of style into an idea and watching it come alive.</p></span>
+                </div>
             </div>
         </div>
      );
