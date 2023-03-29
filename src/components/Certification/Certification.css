@@ -1,40 +1,47 @@
 .wrapper__certificate {
+    margin: 1%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 2.55em;
-    width: 100%;
+    margin-bottom: 5vw;
 }
 
 .title__certificate {
-    font-size: 7.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+    width: 25vw;
+    font-size: 5vw;
     background: black;
     border-radius: 65%;
     border: inset;
     border-color: #ffa646;
-    border-width: 2px;
-    box-shadow: 10px 10px 10px 10px black;
-    margin-bottom: 2em;
+    border-width: .2vw;
+    box-shadow: .35vw .35vw .35vw .35vw black;
+    margin-bottom: 15%;
 }
 
 .logo__certificate {
-    width: 10em;
+    margin: 1%;
+    width: 10vw;
     background: #ffa646;
     border-radius: 5%;
-    padding: .5em;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: .35vw .35vw .35vw .35vw black;
+    padding: .5vw;
 }
 
 .logo__certificate:hover {
-    box-shadow: 5px 5px 5px 5px goldenrod;
+    box-shadow: .45vw .45vw .45vw .45vw goldenrod;
     transition: .75s ease-in;
 }
 
 .certificate {
-    width: 15em;
+    margin: 1.5%;
+    width: 20vw;
     z-index: 3;
-    box-shadow: 5px 5px 5px 5px black;
+    box-shadow: .35vw .35vw .35vw .35vw black;
 }
 
 .certificate:hover {
@@ -43,17 +50,12 @@
 }
 
 .text__certificate {  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 25vw;
     background: black;
-    border-radius: 55%;
+    border-radius: 25%;
     border: inset;
     border-color: goldenrod;
-    border-width: 2.5px;
-    box-shadow: 5px 5px 5px 5px black;
-    font-size: 1.5em;
-    width: 25em;
-    padding: 2em;
-    margin-top: 8em;
+    box-shadow: .35vw .35vw .35vw .35vw black;
+    font-size: 1.5vw;
+    margin-top: 15%;
 }
