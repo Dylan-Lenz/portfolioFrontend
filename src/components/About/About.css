@@ -5,47 +5,48 @@
 
 .about__wrapper {
     display: grid;
-    grid-template-columns: 45em 25em;
+    grid-template-columns: 40vw 25vw;
     justify-content: space-evenly;
     align-items: center;
     justify-items: center;
     background: black;
     opacity: 85%;
-    padding-bottom: 1.5em;
+    padding-bottom: 2.5%;
     width: 100%;
 }
 
 .about__description {
-    font-size: 1.5em;
+    font-size: 1.25vw;
     border: inset;
     border-color: #ffa646;
-    border-width: .1em;
-    padding: 1em;
-    box-shadow: 5px 5px 5px 5px goldenrod;
+    border-width: .1vw;
+    padding: 2.5%;
+    box-shadow: .5vw .5vw .5vw .5vw goldenrod;
     width: 140%;
 }
 
 .about__title {
-    font-size: 4em;
+    font-size: 4.25vw;
 }
 
 .about__qa {
-    font-size: 1.25em;
-    margin: .5em;
+    font-size: 1.1vw;
+    margin: .5vw;
     position: relative;
-    left: 4.5em;
-    top: 8em;
+    left: 4.5vw;
+    top: 8vw;
     border-radius: 25%;
-    box-shadow: 5px 5px 5px 5px goldenrod;
+    box-shadow: .25vw .25vw .25vw .25vw goldenrod;
     width: 90%;
+    padding: 2vw;
 }
 
 .about__header {
-    font-size: 1.5em;
+    font-size: 1.75vw;
 }
 
 .about__text {
-    margin: .5em;
+    margin: .5%;
 }
 
 .about__focus {
@@ -55,20 +56,20 @@
 
 .title__focus {
     font-family: 'Allison';
-    font-size: 4em;
+    font-size: 3.5vw;
 }
 
 .description__focus {
-    font-size: 2em;
+    font-size: 2vw;
     font-family: 'Allison';
 }
 
 .set1__focus {
     position: relative;
-    right: 5em;   
+    right: 5vw;   
 }
 
 .set2__focus {
     position: relative;
-    left: 12.5em;  
+    left: 12.5vw;  
 }
