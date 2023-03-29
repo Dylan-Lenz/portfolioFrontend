@@ -9,7 +9,6 @@ const AboutSection = () => {
             <div className="about__description">
                 <h2 className="about__title">About</h2>
                 <p>
-                    Full Stack Software Developer with a keen eye for Front-End Design, having found success with both independent and team-focused professional projects. 
                     Web Design & Development suit my many interests, compliment my creative talents, and ignite my personal passions.
                 </p>
             </div>

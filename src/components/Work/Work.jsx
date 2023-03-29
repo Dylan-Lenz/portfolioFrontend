@@ -15,7 +15,7 @@ import tripgenerator from "../../assets/tripgenerator.png";
 
 const WorkSection = () => {
     return ( 
-        <div>
+        <div className="container">
             <div className="title_section__work">
                 <h2 className="title__work">The Work</h2>
                 <a href="https://github.com/Dylan-Lenz">

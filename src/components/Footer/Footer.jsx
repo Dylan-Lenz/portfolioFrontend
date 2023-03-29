@@ -11,7 +11,7 @@ import github from "../../assets/github.png";
 
 const Footer = () => {
     return ( 
-        <div className="wrapper__footer">
+        <footer className="container__footer">
             <a href="https://www.linkedin.com/in/dylan-lenz-92b27823b/">
                 <img className="icon__footer" src={LI} alt="LI__icon" />
             </a>
@@ -46,7 +46,7 @@ const Footer = () => {
             <a href="https://github.com/Dylan-Lenz">
                 <img className="icon__footer" src={github} alt="github__icon" />
             </a>
-        </div>
+        </footer>
      );
 }
  

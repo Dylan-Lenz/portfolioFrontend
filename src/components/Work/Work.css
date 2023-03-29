@@ -1,3 +1,7 @@
+.container {
+    padding-bottom: 5vw;
+}
+
 .title_section__work {
     display: flex;
     flex-wrap: wrap;

@@ -16,7 +16,7 @@
 }
 
 .about__description {
-    font-size: 1.25vw;
+    font-size: 2vw;
     border: inset;
     border-color: #ffa646;
     border-width: .1vw;
@@ -47,6 +47,7 @@
 
 .about__text {
     margin: .5%;
+    margin-left: 10%;
 }
 
 .about__focus {

@@ -1,5 +1,5 @@
 .wrapper__certificate {
-    margin: 1%;
+    margin: .1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -11,8 +11,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 2%;
-    width: 25vw;
+    margin: .2%;
+    width: 28vw;
     font-size: 5vw;
     background: black;
     border-radius: 65%;
@@ -39,7 +39,7 @@
 
 .certificate {
     margin: 1.5%;
-    width: 20vw;
+    width: 15vw;
     z-index: 3;
     box-shadow: .35vw .35vw .35vw .35vw black;
 }
@@ -49,13 +49,16 @@
     transition: all 1s ease-in-out;
 }
 
+.text_wrapper__certificate {
+    margin-top: 15%;
+}
+
 .text__certificate {  
-    width: 25vw;
+    width: 35vw;
     background: black;
-    border-radius: 25%;
+    font-size: 2.5vh;
     border: inset;
     border-color: goldenrod;
     box-shadow: .35vw .35vw .35vw .35vw black;
-    font-size: 1.5vw;
-    margin-top: 15%;
+    padding: 1vh;
 }

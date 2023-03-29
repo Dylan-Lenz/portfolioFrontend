@@ -14,11 +14,13 @@ const CertificationSection = () => {
                     <img className="logo__certificate" src={dcc} alt="dcc__logo" />
                 </a>
                 <img className="certificate" src={certificate} alt="certificate" />
-                <p className="text__certificate">
-                    Project based coding bootcamp building real-world full stack applications
-                    and deployment utilizing DevOps best practices. <br></br><br></br> Algorithm development, coding, debugging, 
-                    building functions and graphical user interface applications.
-                </p>
+                <span className="text_wrapper__certificate">
+                    <p className="text__certificate">
+                        Project based coding bootcamp building real-world full stack applications
+                        and deployment utilizing DevOps best practices. <br></br><br></br> Algorithm development, coding, debugging, 
+                        building functions and graphical user interface applications.
+                    </p>
+                </span>
         </div>  
      );
 }
