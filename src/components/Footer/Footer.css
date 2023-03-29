@@ -4,10 +4,11 @@
     justify-content: space-around;
     align-items: center;
     background: black;
+    padding: 1%;
 }
 
 .icon__footer {
-    width: 125px;
+    width: 7.5vw;
 }
 
 .icon__footer:hover {
@@ -16,10 +17,10 @@
 }
 
 .logo__footer {
-    width: 30px;
+    width: 3vw;
     background: #ffa646;
     border-radius: 25%;
-    margin: 10px;
+    margin: 20%;
 }
 
 .logo__footer:hover {
@@ -28,10 +29,10 @@
 }
 
 .logo__location {
-    width: 50px;
+    width: 4vw;
     background: #ffa646;
     border-radius: 25%;
-    margin: 10px;
+    margin: 10%;
 }
 
 .logo__location:hover {
@@ -40,11 +41,11 @@
 }
 
 .text__contact {
-    font-size: 17.5px;
+    font-size: 1vw;
 }
 
 .text__location {
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 .email__footer {

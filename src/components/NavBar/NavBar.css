@@ -10,24 +10,28 @@
     background: black;
     border-bottom: inset;
     border-color: #ffa646;
-    border-width: 1px;
+    border-width: 1%;
     z-index: 4;
 }
 
 .header__navBar {
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 .header__navBar:hover {
     text-decoration: none;
     color: goldenrod;
-    transition: all 1s ease-in-out;
+    transition: 1s ease-in-out;
     transform: scale(1.15);
-    text-shadow: 1px 1px 5px #ffa646, 3px 3px 3px goldenrod;
+    text-shadow: .35vw .35vw 2.5vw #ffa646, .35vw .35vw 2.5vw goldenrod;
+}
+
+.links__navBar {
+    font-size: 1.5vw;
 }
 
 .links__navBar:hover {
     transition: all 1s ease-in-out;
     transform: scale(2);
-    text-shadow: 1px 1px 5px #ffa646, 1px 1px 5px goldenrod; 
+    text-shadow: .35vw .35vw 2.5vw #ffa646, .35vw .35vw 2.5vw goldenrod;
 }
