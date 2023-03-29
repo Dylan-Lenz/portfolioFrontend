@@ -24,12 +24,12 @@ html  {
 
 @-webkit-keyframes slidein {
 from {background-position: top; background-size:225vw; }
-to {background-position: -100vw 0vw;background-size:200vw;}
+to {background-position: -100% 0vw;background-size:200vw;}
 }
 
 @keyframes slidein {
 from {background-position: top;background-size:225vw; }
-to {background-position: -100vw 0vw;background-size:200vw;}
+to {background-position: -100% 0vw;background-size:200vw;}
 
 }
 
