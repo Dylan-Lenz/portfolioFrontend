@@ -4,51 +4,51 @@
     flex-direction: column;
     align-content: center;
     align-items: center; 
-    padding: 2em;
-    margin-top: 10px;
+    padding: 2%;
+    margin-top: 2%;
 }
 
 .wrapper__work {
     display: grid;
-    grid-template-columns: 25em 25em 25em;
+    grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    margin-bottom: 15px;
+    margin-bottom: .5%;
 }
 
 
 .title__work {
-    font-size: 7.5em;
+    font-size: 7.5vw;
     background: black;
     border-radius: 75%;
     border: inset;
     border-color: #ffa646;
-    border-width: .01em;
-    box-shadow: 10px 10px 10px 10px black;
-    margin-bottom: 30px;
+    border-width: .01vw;
+    box-shadow: .5vw .5vw .5vw .5vw black;
+    margin-bottom: 3%;
 }
 
 .title_text__work {
-    font-size: 2em;
+    font-size: 2vw;
     background: black;
     border-radius: 10%;
     border: inset;
     border-color: #ffa646;
-    border-width: .01em;
-    box-shadow: 5px 5px 5px 5px black;
-    margin-bottom: 25px;
+    border-width: .01vw;
+    box-shadow: .5vw .5vw .5vw .5vw black;
+    margin-bottom: 15%;;
     transform: scale(1.25);
 }
 
 .title_text__work:hover {
-    box-shadow: 5px 5px 5px 5px goldenrod;
+    box-shadow: .35vw .35vw .35vw .35vw goldenrod;
     transition: .75s ease-in;
 }
 
 
 .image__work {
-    width: 500px;
+    width: 95%;
 }
 
 .card__work {
@@ -56,27 +56,27 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding: 2%;
     border: inset;
-    margin: 1em;
+    margin: 3%;
     border-color: #ffa646;
-    border-width: .35em;
+    border-width: .35vw;
     background: black;
     opacity: 85%;
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: .5vw .5vw .5vw .5vw black;
 }
 
 .card__work:hover {
     transform: scale(90%);
     transition: all .25s ease-in-out;
-    box-shadow: 5px 5px 5px 5px goldenrod;
+    box-shadow: .35vw .35vw .35vw .35vw goldenrod;
 }
 
 .header__work {
-    font-size: 2em;
-    padding-top: 1em;
+    font-size: 2vw;
+    padding-top: 1vw;
 }
 
 .text__work {
-    font-size: 1.25em;
+    font-size: 1.25vw;
 }
