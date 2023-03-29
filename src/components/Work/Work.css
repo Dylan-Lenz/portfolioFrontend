@@ -1,5 +1,6 @@
 .container__work {
     margin-bottom: 15vh;
+    margin-top: 2vh;
 }
 
 .title_section__work {
@@ -9,6 +10,7 @@
     align-content: center;
     align-items: center; 
     padding: 2%;
+    margin: 1%;
 }
 
 .wrapper__work {
@@ -28,6 +30,7 @@
     border-color: #ffa646;
     border-width: .01vw;
     box-shadow: .5vw .5vw .5vw .5vw black;
+    margin: 3%;
 }
 
 .title_text__work {
