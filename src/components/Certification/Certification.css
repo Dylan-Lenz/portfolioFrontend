@@ -56,9 +56,9 @@
 .text__certificate {  
     width: 35vw;
     background: black;
-    font-size: 2.5vh;
+    font-size: 1.5vw;
     border: inset;
     border-color: goldenrod;
     box-shadow: .35vw .35vw .35vw .35vw black;
-    padding: 1vh;
+    padding: 1vw;
 }

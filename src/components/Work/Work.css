@@ -1,5 +1,5 @@
-.container {
-    padding-bottom: 5vw;
+.container__work {
+    margin-bottom: 15vh;
 }
 
 .title_section__work {
@@ -9,7 +9,6 @@
     align-content: center;
     align-items: center; 
     padding: 2%;
-    margin-top: 2%;
 }
 
 .wrapper__work {
@@ -18,7 +17,6 @@
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    margin-bottom: .5%;
 }
 
 
@@ -30,7 +28,6 @@
     border-color: #ffa646;
     border-width: .01vw;
     box-shadow: .5vw .5vw .5vw .5vw black;
-    margin-bottom: 3%;
 }
 
 .title_text__work {
@@ -41,7 +38,6 @@
     border-color: #ffa646;
     border-width: .01vw;
     box-shadow: .5vw .5vw .5vw .5vw black;
-    margin-bottom: 15%;;
     transform: scale(1.25);
 }
 
