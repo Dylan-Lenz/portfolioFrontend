@@ -23,13 +23,13 @@ html  {
 }
 
 @-webkit-keyframes slidein {
-from {background-position: top; background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+from {background-position: top; background-size:225vw; }
+to {background-position: -100vw 0vw;background-size:200vw;}
 }
 
 @keyframes slidein {
-from {background-position: top;background-size:3000px; }
-to {background-position: -100px 0px;background-size:2750px;}
+from {background-position: top;background-size:225vw; }
+to {background-position: -100vw 0vw;background-size:200vw;}
 
 }
 
