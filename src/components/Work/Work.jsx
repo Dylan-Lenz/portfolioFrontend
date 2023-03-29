@@ -17,7 +17,7 @@ const WorkSection = () => {
     return ( 
         <div className="container__work">
             <div className="title_section__work">
-                <h2 className="title__work">The Work</h2>
+                <h2 className="title__work">TheWork</h2>
                 <a href="https://github.com/Dylan-Lenz">
                     <div className="title_text__work">
                         <p>Check The Code @GitHub</p>
