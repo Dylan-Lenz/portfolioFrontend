@@ -12,6 +12,7 @@
     background: black;
     opacity: 85%;
     padding-bottom: 1.5em;
+    width: 100%;
 }
 
 .about__description {
@@ -21,7 +22,7 @@
     border-width: .1em;
     padding: 1em;
     box-shadow: 5px 5px 5px 5px goldenrod;
-    width: 40em;
+    width: 140%;
 }
 
 .about__title {
@@ -36,7 +37,7 @@
     top: 8em;
     border-radius: 25%;
     box-shadow: 5px 5px 5px 5px goldenrod;
-    width: 20em;
+    width: 90%;
 }
 
 .about__header {
@@ -48,8 +49,8 @@
 }
 
 .about__focus {
-    margin: 0em;
-    padding: 0em;
+    margin: 0%;
+    padding: 0%S;
 }
 
 .title__focus {
