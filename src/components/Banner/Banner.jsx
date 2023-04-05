@@ -3,7 +3,7 @@ import React from 'react';
 import "./Banner.css";
 
 // Asset Imports
-import headshot from "../../assets/BlackV.jpg";
+import headshot from "../../assets/headshot.png";
 import simpleflourish from "../../assets/simpleflourish.png"
 
 const InformationSection = () => {
